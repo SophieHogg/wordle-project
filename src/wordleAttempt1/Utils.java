@@ -24,6 +24,7 @@ public class Utils {
 				}
 				else if (correctWord.contains(""+userInputLower.charAt(i))) {
 					outputString+=questionMark;
+					// check if word contains only one of the letter?
 				}
 				else {
 					outputString+=redCross;
